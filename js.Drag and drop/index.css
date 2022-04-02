@@ -1,0 +1,49 @@
+body{
+    background-color: violet;
+}
+
+/* //Utility classes */
+.hide{
+    display: none;
+}
+
+.dashed{
+    height: 210px;
+    width: 310px;
+    margin: 5px;
+    background-color: rgb(178, 182, 185);
+    border: 2px dashed blue;
+}
+
+.hold{
+    border: 2px solid red;
+}
+
+#container{
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageBox{
+    background-image: url("image.jpg"); /* The image used */
+    /* background-color: #cccccc; Used if the image is unavailable */
+    height: 200px; /* You must set a specified height */
+    width: 300px;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.whiteBoxes{
+    height: 210px;
+    width: 310px;
+    margin: 5px;
+    background-color: aliceblue;
+}
